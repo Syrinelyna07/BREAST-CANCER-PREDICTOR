@@ -1,0 +1,67 @@
+/* Fond général */
+body, .stApp {
+    background-color: #fff0f6;
+    font-family: "Poppins", sans-serif;
+    color: #4a004e;
+}
+
+/* Titres */
+h1, h2, h3 {
+    color: #d63384;
+    font-weight: bold;
+}
+
+/* Sidebar */
+.css-1d391kg {
+    background-color: #ffe6f0 !important;
+    border-right: 2px solid #ff99cc;
+}
+
+/* Intro texte */
+.intro {
+    background: #ffe6f0;
+    border-left: 6px solid #ff4b9f;
+    padding: 10px 15px;
+    border-radius: 8px;
+    font-size: 1.1rem;
+}
+
+/* Résultats prédiction */
+.diagnosis {
+    font-size: 1.4rem;
+    font-weight: bold;
+    padding: 10px;
+    border-radius: 10px;
+    text-align: center;
+}
+
+.diagnosis.benign {
+    background-color: #d4f8d4;
+    color: #1b5e20;
+    border: 2px solid #2e7d32;
+}
+
+.diagnosis.malignant {
+    background-color: #ffd6e7;
+    color: #a80036;
+    border: 2px solid #d63384;
+}
+
+/* Note médicale */
+.note {
+    margin-top: 15px;
+    font-style: italic;
+    color: #555;
+    background: #fff5fa;
+    padding: 8px;
+    border-radius: 6px;
+    border-left: 4px solid #d63384;
+}
+
+.stSidebar h2, .stSidebar h3, .stSidebar h4 {
+    color: #ff52a9; /* rose foncé */
+    font-weight: 700;
+    font-size: 1.5rem;
+    text-align: center; /* centrer le texte */
+    margin-bottom: 20px;
+}
