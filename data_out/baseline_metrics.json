@@ -1,0 +1,23 @@
+{
+  "dataset": "Breast Cancer Wisconsin (Diagnostic)",
+  "samples": 569,
+  "features": 30,
+  "split": "80/20 random split",
+  "random_state": 42,
+  "model": "LogisticRegression",
+  "accuracy": 0.9736842105263158,
+  "precision_malignant": 0.9761904761904762,
+  "recall_malignant": 0.9534883720930233,
+  "f1_malignant": 0.9647058823529412,
+  "roc_auc": 0.99737962659679,
+  "confusion_matrix": [
+    [
+      70,
+      1
+    ],
+    [
+      2,
+      41
+    ]
+  ]
+}

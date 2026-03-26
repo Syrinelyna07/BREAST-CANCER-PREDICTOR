@@ -1,0 +1,2 @@
+run_name,model,scaler,split,random_state,accuracy,precision_malignant,recall_malignant,f1_malignant,roc_auc
+baseline_logreg,LogisticRegression,StandardScaler,0.2,42,0.973684,0.976190,0.953488,0.964706,0.997380
